@@ -1,4 +1,4 @@
-# Senior Research
+# Image Recognition Using The MNIST Dataset of Handwritten Digits
 
 It is important to study and use technology such as cybersecurity and artificial intelligence so that effective strategies of keeping information secure can be made. One of the most useful ways to secure information on mobile devices can be biometric authentication. Some biometric software that are being used today include facial recognition and image recognition. The objective of the research project is to test the k-NN (K-Nearest Neighbor) algorithm's ability to classify any image accurately as opposed to merely recognizing faces for image recognition. The K-Nearest Neighbors (KNN) algorithm is a simple but efficient approach for classification and regression tasks. The algorithm is also simple to learn and is flexible. Using the KNN algorithm could help perform facial recognition and image recognition. The KNN algorithm could also provide incredibly accurate classifications and detections which could compete with the most accurate models. KNN could therefore be used for a variety of mobile applications that can strengthen security.
 
