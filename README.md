@@ -31,11 +31,7 @@ X, y = mnist.data, mnist.target
 X.iloc[:3]
 
 Output:
-pixel1	pixel2	pixel3	pixel4	pixel5	pixel6	pixel7	pixel8	pixel9	pixel10	...	pixel775	pixel776	pixel777	pixel778	pixel779 
-pixel780	pixel781	pixel782	pixel783	pixel784
-0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	...	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0
-1	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	...	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0
-2	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	...	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0
+<img width="998" alt="Screenshot 2023-11-17 at 9 15 55 PM" src="https://github.com/vimarsh0119/Senior-Research/assets/149597902/64842fb5-d8ac-455b-b6de-45601ebe5e05">
 
 3 rows × 784 columns
 
@@ -81,7 +77,7 @@ print("Accuracy:", accuracy)
 Output:
 Accuracy: 0.9687142857142857
 
-# to create nice confusion metrics
+# To create nice confusion metrics
 import seaborn as sns
 
 cm = confusion_matrix(y_test,predictions)
