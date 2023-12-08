@@ -49,6 +49,20 @@ Output:
 
 ![image](https://github.com/vimarsh0119/Senior-Research/assets/149597902/f0373560-8c78-4819-bcc6-7c3f5ca7335f)
 
+import matplotlib.pyplot as plt
+
+# set up the plot
+figure, axes = plt.subplots(2, 5, figsize=(28, 28))
+
+for ax, image, number in zip(axes.ravel(), X.values, y):
+    ax.axis('off')
+    ax.imshow(image.reshape((28, 28)), cmap=plt.cm.gray_r)
+
+plt.show()
+
+Output:
+![image](https://github.com/vimarsh0119/Senior-Research/assets/149597902/f661a8d2-e24f-4f14-88b7-a4574a80d098)
+
 # Split the dataset into training and testing sets
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
 
