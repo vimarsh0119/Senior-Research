@@ -35,6 +35,7 @@ Output:
 
 3 rows × 784 columns
 
+# Outputting a single image
 image1 = X.iloc[0]
 image1 = list(image1)
 image1 = np.array(image1)
@@ -51,7 +52,7 @@ Output:
 
 import matplotlib.pyplot as plt
 
-# set up the plot
+# Outputting multiple images at once 
 figure, axes = plt.subplots(2, 5, figsize=(28, 28))
 
 for ax, image, number in zip(axes.ravel(), X.values, y):
